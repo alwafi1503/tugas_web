@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+</head>
+<body>
+    <h1 style="margin:10px;">PAYMENT</h1>
+    <form class="" action="index.html" method="post">
+        <P>ABDUL GHONI</P>
+        <input disabled required class="input-form laf" type="number" name="" value="" placeholder="01.."></P>
+      <input disabled required class="input-form-number laf" type="number" name="" value="1" placeholder="Jumlah" ng-model="jumlah">
+      <input disabled required class="input-form-number laf" type="number" name="" value="150.000" ng-model="harga">
+      <input disabled required class="input-form-value" type="number" name="" value="{{jumlah*harga}}" placeholder="Hasil" ng-model="Hasil">
+      <P><textarea class="input-form" cols="5" rows="5" name="comment" placeholder="Catatan" required></textarea></P>
+    </textarea>
+    <div style="overflow-x:auto;">
+        <label>Pilih Metode Pembayaran:</label>
+        <table border=0 cellpadding="10">
+            <tr>
+                <th><input type="checkbox"  value=""><img src="BNI.png" width="60px" height="40px"></th>
+                <th><input type="checkbox"  value=""><img src="bank bca.jpg" width="60px" height="40px"></th>
+                <th><input type="checkbox"  value=""><img src="bank bri.jpg" width="60px" height="40px"></th>
+                <th><input type="checkbox"  value=""><img src="bank bjb.png" width="60px" height="40px"></th>
+                <th><input type="checkbox"  value=""><img src="indomaret.png" width="60px" height="25px"></th>
+                <th><input type="checkbox"  value=""><img src="alfamaret.png" width="60px" height="20px"></th>
+              </tr>
+              <tr>
+                <th><input type="checkbox"  value=""><img src="visa.png" width="60px" height="30px"></th>
+                <th><input type="checkbox"  value=""><img src="pay pal.png" width="60px" height="30px"></th>
+                <th><input type="checkbox"  value=""><img src="go pay.png" width="60px" height="20px"></th>
+                <th><input type="checkbox"  value=""><img src="cod.png" width="70px" height="50px"></th>              
+              </tr>
+              </table>  
+            </div>
+            <td>
+            <button class="btn-form-pay">Pay</button>
+            <button class="btn-form-change" id="myBtn">Batal</button>
+            </td>
+          </form>
+        </div>
+        </body>
+      </html>
+      
+    
