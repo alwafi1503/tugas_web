@@ -1,2 +1,2 @@
-# tugas_web
+# tugas
 untuk mengumpulkan tugas
